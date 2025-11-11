@@ -1,104 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Harrys Richardson | Portfolio</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harrys Richardson | Portfolio</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Harrys<span>R</span></div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+        <!-- Theme toggle + Menu -->
+        <div class="nav-controls">
+          <button id="theme-toggle" class="theme-btn" title="Toggle Theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="menu-toggle" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-  <!-- Icons -->
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- Header -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Harrys<span>R</span></div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <img src="assets/profile.jpg" alt="Harrys Richardson" class="profile-pic">
-      <h1>Hi, I'm <span>Harrys Richardson</span></h1>
-      <p>A passionate Java Developer exploring the world of Data Engineering & Analytics.</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section class="about" id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m a software engineer with over 5 years of experience in Java development,
-      currently transitioning into data engineering. I love solving real-world problems
-      with technology and continuously learning new skills to grow in the data domain.
-    </p>
-  </section>
-
-  <!-- Skills -->
-  <section class="skills" id="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills-grid">
-      <div class="skill"><i class="fab fa-java"></i> Java</div>
-      <div class="skill"><i class="fas fa-database"></i> SQL / PostgreSQL</div>
-      <div class="skill"><i class="fas fa-cloud"></i> AWS</div>
-      <div class="skill"><i class="fas fa-code"></i> Python</div>
-      <div class="skill"><i class="fas fa-cogs"></i> Apache Spark</div>
-      <div class="skill"><i class="fas fa-chart-line"></i> Data Analytics</div>
-    </div>
-  </section>
-
-  <!-- Projects -->
-  <section class="projects" id="projects">
-    <h2>Featured Projects</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <img src="assets/project1.jpg" alt="Retail Sales Pipeline">
-        <h3>Retail Sales Data Pipeline</h3>
-        <p>End-to-end data engineering project using Spark and AWS to process and visualize retail sales data.</p>
-        <a href="https://github.com/yourusername/retail-sales-pipeline" target="_blank">View Project</a>
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <img
+          src="assets/profile.jpg"
+          alt="Harrys Richardson"
+          class="profile-pic"
+        />
+        <h1>Hi, I'm <span>Harrys Richardson</span></h1>
+        <p>
+          A passionate Java Developer exploring the world of Data Engineering &
+          Analytics.
+        </p>
+        <a href="#projects" class="btn">View My Work</a>
       </div>
+    </section>
 
-      <div class="project-card">
-        <img src="assets/project2.jpg" alt="SQL Analytics">
-        <h3>SQL Analytics Dashboard</h3>
-        <p>Analyzed business metrics using complex SQL queries and window functions to generate insights.</p>
-        <a href="https://github.com/yourusername/sql-analytics-dashboard" target="_blank">View Project</a>
+    <!-- About -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        I’m a software engineer with over 5 years of experience in Java
+        development, currently transitioning into data engineering. I love
+        solving real-world problems with technology and continuously learning
+        new skills to grow in the data domain.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><i class="fab fa-java"></i> Java</div>
+        <div class="skill">
+          <i class="fas fa-database"></i> SQL / PostgreSQL
+        </div>
+        <div class="skill"><i class="fas fa-cloud"></i> AWS</div>
+        <div class="skill"><i class="fas fa-code"></i> Python</div>
+        <div class="skill"><i class="fas fa-cogs"></i> Apache Spark</div>
+        <div class="skill">
+          <i class="fas fa-chart-line"></i> Data Analytics
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Contact -->
-  <section class="contact" id="contact">
-    <h2>Contact Me</h2>
-    <p>If you'd like to collaborate or just say hello, feel free to reach out!</p>
-    <div class="contact-links">
-      <a href="mailto:harrys.richardson@example.com"><i class="fas fa-envelope"></i> Email</a>
-      <a href="https://www.linkedin.com/in/harrys-richardson" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-    </div>
-  </section>
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="assets/project1.jpg" alt="Retail Sales Pipeline" />
+          <h3>Retail Sales Data Pipeline</h3>
+          <p>
+            End-to-end data engineering project using Spark and AWS to process
+            and visualize retail sales data.
+          </p>
+          <a
+            href="https://github.com/yourusername/retail-sales-pipeline"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
 
-  <footer>
-    <p>© 2025 Harrys Richardson | Built with ❤️ & hosted on GitHub Pages</p>
-  </footer>
+        <div class="project-card">
+          <img src="assets/project2.jpg" alt="SQL Analytics" />
+          <h3>SQL Analytics Dashboard</h3>
+          <p>
+            Analyzed business metrics using complex SQL queries and window
+            functions to generate insights.
+          </p>
+          <a
+            href="https://github.com/yourusername/sql-analytics-dashboard"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
 
-  <script src="script.js"></script>
-</body>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        If you'd like to collaborate or just say hello, feel free to reach out!
+      </p>
+      <div class="contact-links">
+        <a href="mailto:harrys.richardson@example.com"
+          ><i class="fas fa-envelope"></i> Email</a
+        >
+        <a href="https://www.linkedin.com/in/harrys-richardson" target="_blank"
+          ><i class="fab fa-linkedin"></i> LinkedIn</a
+        >
+        <a href="https://github.com/yourusername" target="_blank"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Harrys Richardson | Built with ❤️ & hosted on GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
