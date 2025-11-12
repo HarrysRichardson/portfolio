@@ -1,0 +1,14 @@
+[
+  {
+    "title": "The Art of Data Engineering",
+    "author": "DataCamp",
+    "url": "https://www.datacamp.com/blog/data-engineering-principles",
+    "tags": ["Data", "Engineering"]
+  },
+  {
+    "title": "How Stoicism Improves Decision Making",
+    "author": "Daily Stoic",
+    "url": "https://dailystoic.com/decision-making/",
+    "tags": ["Philosophy", "Life"]
+  }
+]
